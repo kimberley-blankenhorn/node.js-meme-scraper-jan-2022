@@ -1,0 +1,9 @@
+{
+  "name": "node.js-meme-scraper-jan-2022",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "repository": "https://github.com/kimberley-blankenhorn/node.js-meme-scraper-jan-2022.git",
+  "author": "Kimberley Blankenhorn <kimberley.blankenhorn@gmail.com>",
+  "license": "MIT"
+}
