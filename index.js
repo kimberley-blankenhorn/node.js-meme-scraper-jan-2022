@@ -4,9 +4,10 @@ import Axios from 'axios';
 import { load } from 'cheerio';
 import request from 'request';
 
+// Pull the information from this site:
 const URL = 'https://memegen-link-examples-upleveled.netlify.app/';
 async function downloadImage(url, index) {
-  // rename the images to have the Zero in front
+  // Rename the images to have the Zero in front
   // Need to adjust it to take the zero off in front of 10 with slice
   const path = _resolve('./memes', '0' + [index + 1] + '.jpg');
   const writer = createWriteStream(path);
