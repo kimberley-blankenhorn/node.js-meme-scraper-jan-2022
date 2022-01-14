@@ -41,10 +41,10 @@ request(URL, function (err, resp, html) {
     console.log(imgUrls);
 
     // Treverse the webpage and select the media elements
-    $('img').each(function (i, element) {
-      const temp = $(this).attr('src'); // Create a reference for the image
-      imgUrls.push(temp); // Add the URL address to the return info array
-    });
+    // $('img').each(function (_i, element) {
+    //   const temp = $(this).attr('src'); // Create a reference for the image
+    //   imgUrls.push(temp); // Add the URL address to the return info array
+    // });
 
     try {
       console.log(imgUrls[10]);
