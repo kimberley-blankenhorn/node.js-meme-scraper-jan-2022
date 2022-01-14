@@ -6,6 +6,8 @@ memegen-link-examples-upleveled.netlify.app
 
 Meme scraper will download and save the first 10 images from the website above automatically.
 
+Example:
+
 ```
 $ node index.js
 [
